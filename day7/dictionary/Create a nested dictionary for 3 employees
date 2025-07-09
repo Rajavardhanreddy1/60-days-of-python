@@ -1,0 +1,10 @@
+# Create a nested dictionary for 3 employees. Each employee should have keys: "name", "skills" (a list), and "experience" in years.
+# Add a new skill to employee 1.
+# Remove a skill from employee 2.
+# Update experience of employee 3.
+# Print all skills of all employees.
+d={"employee 1":{"name":"raja","skills":["python","c"],"experience":1},"employee 2":{"name":"vardhan","skills":["python","c"],"experience":1},"employee 3":{"name":"sudhakar","skills":["python","c"],"experience":1}}
+d["employee 1"]["skills"].append("data analystics")
+d["employee 2"]["skills"].pop()
+d["employee 3"]["experience"]+=1
+print(d)
