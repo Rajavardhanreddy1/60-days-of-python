@@ -1,2 +1,2 @@
-# 30-days-of-python
-30 days of code
+# 60-days-of-python
+60 days of code
